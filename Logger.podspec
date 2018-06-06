@@ -18,9 +18,9 @@
   s.homepage     = "https://github.com/vishaljhanjhri"
   s.license      = { :type => "MIT", :file => "license" }
   s.author             = { "vishal jhanjhri" => "jhanjhri.vishal@gmail.com" }
-  s.ios.deployment_target = '8.0'
   s.ios.vendored_frameworks = 'Logger.framework'
-  s.source            = { :http => 'https://github.com/vishaljhanjhri/Logger/blob/master/Logger.zip'}
+  s.source       = { :git => 'https://github.com/vishaljhanjhri/Logger'}
+  s.ios.deployment_target = '8.0'
   s.exclude_files = "Classes/Exclude"
 
 end
